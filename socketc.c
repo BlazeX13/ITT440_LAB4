@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
 	int socket_desc;
-	struct sockaddr_inserver;
+	struct sockaddr_in server;
 
 	//Create socket
 	socket_desc=socket(AF_INET,SOCK_STREAM,0);
